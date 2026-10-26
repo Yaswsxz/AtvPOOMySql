@@ -1,22 +1,9 @@
-<<<<<<< HEAD
-## Getting Started
+﻿# Sistema de Biblioteca
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Atividade de Programação Orientada a Objetos (Unicesumar) em Java com MySQL e JDBC.
 
-## Folder Structure
+## Como rodar
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# AtvPOOMySql
->>>>>>> ca2f8e24c5f15d4518c74879a76519072f8fdcba
+1. Execute o script `biblioteca.sql` no MySQL (phpMyAdmin do XAMPP).
+2. Confirme usuário e senha na classe `ConnectionFactory`.
+3. Rode a classe `Main`.
